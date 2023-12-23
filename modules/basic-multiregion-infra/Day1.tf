@@ -49,7 +49,7 @@ resource "aws_instance" "myfirstEC2" {
 resource "aws_s3_bucket" "mys3bucket" {
 
   provider = aws.east
-  bucket = "mys3buck181093dfdf"
+  bucket = "mys3buck181093dfdf2"
 
 }
 
