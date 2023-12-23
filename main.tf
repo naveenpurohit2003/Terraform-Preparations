@@ -4,3 +4,7 @@ module "myinframodule" {
   
 }
 
+module "vpcinfra"{
+    source = "./modules/vpc-infra"
+}
+
